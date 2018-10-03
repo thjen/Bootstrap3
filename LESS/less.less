@@ -1,0 +1,38 @@
+@bg: #34496e;
+@color: hsl(0, 51%, 55%);
+@font: "Helvetica Neue", Arial, sans-serif;
+@border: 1px;
+
+body{
+    background: @bg;
+    color: @color;
+    font-family: @font;
+}
+
+.lead{
+    font-size: 32px;
+}
+
+#header{
+    text-transform: uppercase;
+}
+
+/*#{
+    color: @color;
+    text-decorator: none;
+    border-bottom: @border+2 solid @color;
+    .lead;
+    #header;
+}*/
+
+#container{
+    h1{
+        color: @color;
+    }
+    p{
+        font-size: 32px;
+    }
+    a{
+        text-decoration: uppercase; 
+    }
+}

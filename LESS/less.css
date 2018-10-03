@@ -1,0 +1,27 @@
+body {
+  background: #34496e;
+  color: #c75252;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.lead {
+  font-size: 32px;
+}
+#header {
+  text-transform: uppercase;
+}
+/*#{
+    color: @color;
+    text-decorator: none;
+    border-bottom: @border+2 solid @color;
+    .lead;
+    #header;
+}*/
+#container h1 {
+  color: #c75252;
+}
+#container p {
+  font-size: 32px;
+}
+#container a {
+  text-decoration: uppercase;
+}
